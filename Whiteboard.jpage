@@ -1,0 +1,7 @@
+Database testDB = new Database();
+testDB.bootstrap();
+testDB.exportSeat();
+
+
+CREATE DATABASE reservations;
+CREATE TABLE seat (id INT(6) PRIMARY KEY, seatNumber INT(2)); 
